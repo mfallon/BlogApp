@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { fetchPosts } from '../actions/index';
 import { Link } from 'react-router';
+import { fetchPosts } from '../actions/index';
 
 class PostsIndex extends Component {
   // use lifecycle method to fetch url whenever path changes
